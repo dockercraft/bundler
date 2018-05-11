@@ -7,10 +7,13 @@ package manager
 
 
 # Supported tags and respective `Dockerfile` links
-* `1`, `latest`
+* `1.1`, `latest`
+* `1`
 
 
 # Versions
+* 1.1
+   * add zlib
 * 1
    * alpine 3.7
    * ruby 2.4.4p296 (2018-03-28 revision 63013) [x86_64-linux-musl]
