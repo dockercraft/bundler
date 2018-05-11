@@ -5,7 +5,7 @@ MAINTAINER Daniel <daniel@topdevbox.com>
  # Local Build: docker build -t bundler .
  # Local Run: docker run -it bundler bundler help
 
-ENV PACKAGES "g++ make ruby ruby-dev ruby-json nodejs"
+ENV PACKAGES "g++ make ruby ruby-dev ruby-json nodejs zlib"
 # optinal package: curl gmp-dev ca-certificates openssl openssl-dev musl-dev 
 
 RUN apk update \
